@@ -60,7 +60,7 @@ function initialise(
 
   rtc = new PexRTC();
   rtc.registration_token = registration_token;
-  rtc.oneTimeToken = onTimeToken;
+  rtc.oneTimeToken = oneTimeToken;
   //console.log('LOOK HERE', videoSelect.value);
   rtc.fecc_supported = true;
   rtc.video_source = videoSelect.value;
